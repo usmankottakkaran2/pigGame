@@ -50,6 +50,7 @@ public class PigGameTest {
         }
 
         System.out.println("\nYou finished in " + turns + " turns!");
+        System.out.println("Total score: " + totalScore);
         System.out.println("Game over!");
         scanner.close();
     }
